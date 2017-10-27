@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Preview from './Studio/Preview';
+import Settings from './Studio/Settings';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Preview/>, document.getElementById('preview'));
+ReactDOM.render(<Settings/>, document.getElementById('settings'));
 registerServiceWorker();
