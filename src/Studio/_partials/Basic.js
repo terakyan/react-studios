@@ -35,7 +35,7 @@ class Basic extends Component {
                     <div className="col-xs-12 col-md-6 col-lg-3  p-t-10 p-b-10 text-style-tool ">
                         <div className="width100">
                             <div className="spinner letter-spacing">
-                                <label for="font-size" className="sr-only">font-size</label>
+                                <label htmlFor="font-size" className="sr-only">font-size</label>
                                 <input type="text" value="12" data-css="font-size" data-html="font-size" data-after="px"
                                        id="font-size" className="form-control"/>
                                 <div className="input-group-btn-vertical">
@@ -67,7 +67,7 @@ class Basic extends Component {
                 <div className="row">
                     <div className="col-xs-12 col-md-12 col-lg-6 p-t-10 p-b-10 text-style-tool basic-letter-spacing">
                         <div className="spinner line-height col-xs-6">
-                            <label for="AngleInput" className="sr-only">line-height</label>
+                            <label htmlFor="AngleInput" className="sr-only">line-height</label>
                             <input type="text" value="12" data-css="line-height" data-html="line-height" data-after="px"
                                    id="line-height" className="form-control"/>
                             <div className="input-group-btn-vertical">
@@ -78,7 +78,7 @@ class Basic extends Component {
                             </div>
                         </div>
                         <div className="spinner word-spacing col-xs-6">
-                            <label for="letter-spacing" className="sr-only">letter-spacing</label>
+                            <label htmlFor="letter-spacing" className="sr-only">letter-spacing</label>
                             <input type="text" value="0" data-css="letter-spacing" data-html="letter-spacing"
                                    data-after="px" id="letter-spacing" className="form-control"/>
                             <div className="input-group-btn-vertical">
@@ -101,7 +101,7 @@ class Basic extends Component {
                         </div>
                     </div>
                     <div className="col-xs-6 col-md-6  col-lg-3 p-t-10 p-b-10 text-tool-align ">
-                        <label for="textalign" className="sr-only">Text Align</label>
+                        <label htmlFor="textalign" className="sr-only">Text Align</label>
                         <select className="form-control customselect" data-css="text-align"
                                 data-selector="textalign" data-style="className-style-menu">
                             <option data-icon="glyphicon-align-left" value="left"></option>
