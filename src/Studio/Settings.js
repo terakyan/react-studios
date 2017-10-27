@@ -13,6 +13,14 @@ function PanelHeader(props) {
                                     <i className="fa fa-angle-down" aria-hidden="true"></i>
                                 </a>{props.title}
                             </span>
+                            <span className=" m-l-10 pull-left">
+                                <label className="switch switch-flat switch-button">
+                                    <input className="switch-input" data-switch="animationcontainer"
+                                           data-cssexist="animationclassName" type="checkbox"/>
+                                    <span className="switch-label" data-on="On" data-off="Off"></span>
+                                    <span className="switch-handle "></span>
+                                </label>
+                            </span>
             <a href="#" className="iconstudio addicon m-r-5 pull-right"><i className="fa fa-power-off f-s-20" aria-hidden="true"></i></a>
           </div>
           <div className="col-xs-12 studio-collapse-toobar collapse in" id="collapseBasic">

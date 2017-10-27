@@ -24,7 +24,7 @@ class Basic extends Component {
                             </select>
                         </div>
                         <div className="pull-right col-xs-3 p-l-10  p-r-0">
-                            <SketchPicker />
+                            {/*<SketchPicker />*/}
                   <span className="input-group color-picker input-color input-color-inblock"
                         data-textcolor="color">
                   <input type="text" className="form-control hide" id="" value="#000" name=""
