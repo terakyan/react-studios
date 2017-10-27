@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { SketchPicker } from 'react-color';
 
 class Basic extends Component {
     constructor(props) {
@@ -23,6 +24,7 @@ class Basic extends Component {
                             </select>
                         </div>
                         <div className="pull-right col-xs-3 p-l-10  p-r-0">
+                            <SketchPicker />
                   <span className="input-group color-picker input-color input-color-inblock"
                         data-textcolor="color">
                   <input type="text" className="form-control hide" id="" value="#000" name=""

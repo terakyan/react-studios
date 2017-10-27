@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Collapse } from 'react-bootstrap';
 import FontAwesome from 'react-fontawesome';
-import faStyles from 'font-awesome/css/font-awesome.css';
+
 import './index.css';
 import './Css/Styles.css';
 import './App.css';
