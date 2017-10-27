@@ -16,7 +16,7 @@ function PanelHeader(props) {
             <a href="#" className="iconstudio addicon m-r-5 pull-right"><i className="fa fa-power-off f-s-20" aria-hidden="true"></i></a>
           </div>
           <div className="col-xs-12 studio-collapse-toobar collapse in" id="collapseBasic">
-              Contnent
+              {props.content}
           </div>
         </div>
     );
@@ -29,7 +29,7 @@ class Settings extends Component {
     var animation = new Animation();
     return (
       <div className='settings'>
-        <PanelHeader title={basic.title}/>
+        <PanelHeader title={basic.title} content={basic.render()}/>
         <PanelHeader title={basic.title}/>
         <PanelHeader title={basic.title}/>
       </div>
