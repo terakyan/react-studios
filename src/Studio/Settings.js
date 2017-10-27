@@ -30,8 +30,8 @@ class Settings extends Component {
     return (
       <div className='settings'>
         <PanelHeader title={basic.title} content={basic.render()}/>
-        <PanelHeader title={basic.title}/>
-        <PanelHeader title={basic.title}/>
+        <PanelHeader title={shadow.title} content={shadow.render()}/>
+        <PanelHeader title={animation.title} content={animation.render()}/>
       </div>
     );
   }
